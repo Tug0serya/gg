@@ -15,9 +15,6 @@ class player(character):
     def __init__(self, max_health, attack, armor):
         super().__init__(max_health, attack, armor)
 
-class enemy(character):
-    def __init__(self, max_health, attack, armor):
-        super().__init__(max_health, attack, armor)
 
 main_character = player(15, 5, 10)
 goblin = enemy(5, 2, 0)
